@@ -9120,6 +9120,26 @@ dependencies = [
 ]
 
 [[package]]
+name = "zksync_witness_generator_service"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "async-trait",
+ "serde",
+ "tokio-util",
+ "tracing",
+ "vise",
+ "zkevm_test_harness",
+ "zksync_config",
+ "zksync_object_store",
+ "zksync_prover_dal",
+ "zksync_prover_fri_types",
+ "zksync_prover_job_processor",
+ "zksync_prover_keystore",
+ "zksync_types",
+]
+
+[[package]]
 name = "zksync_witness_vector_generator"
 version = "0.1.0"
 dependencies = [
